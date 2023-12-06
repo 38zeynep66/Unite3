@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Unite3</string>
+    <string name="islem_yap">İşlem Yap</string>
+    <string name="name">Name</string>
 </resources>

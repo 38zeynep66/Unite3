@@ -132,7 +132,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="116dp"
         android:onClick="uygulama11goster"
-        android:text="uygulama11"
+        android:text="Uygulama11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"
@@ -145,6 +145,18 @@
         android:layout_marginTop="188dp"
         android:onClick="uygulama12goster"
         android:text="uygulama12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="153dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="260dp"
+        android:onClick="SS_92goster"
+        android:text="SS_92"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.81"
         app:layout_constraintStart_toStartOf="parent"

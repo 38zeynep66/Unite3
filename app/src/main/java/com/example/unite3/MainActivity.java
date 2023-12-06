@@ -4,7 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
+
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -71,6 +75,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void uygulama12goster(View view) {
         Intent i = new Intent(MainActivity.this, Uyg12.class);
+        startActivity(i);
+    }
+
+    public void SS_92goster(View view) {
+        Intent i = new Intent(MainActivity.this, SS_92.class);
         startActivity(i);
     }
 }
